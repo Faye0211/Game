@@ -1,0 +1,95 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.qipan {
+  width: 800px;
+  height: 600px;
+  border: 10px solid #000;
+  margin: 20px auto;
+  position: relative;
+  cursor: pointer;
+}
+.hengxianbox div {
+  box-sizing: border-box;
+  height: 50px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+.shuxianbox {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  left: 0;
+  top: 0;
+}
+.shuxianbox div {
+  box-sizing: border-box;
+  height: 100%;
+  width: 50px;
+  float: left;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.qizi1 {
+  position: absolute;
+  left: -150px;
+  top: 50px;
+  margin-left: -21px;
+  margin-top: -21px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background:radial-gradient(20px 20px at center,#fff,#ccc);
+}
+.qizi2 {
+  position: absolute;
+  left: -100px;
+  top: 50px;
+  margin-left: -21px;
+  margin-top: -21px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background:radial-gradient(20px 20px at center,#444,#000);
+}
+
+.zhexiubu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .2);
+  display: none;  
+}
+
+.querenbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, .9);
+  cursor: pointer;
+  display: none;
+}
+.shengli {
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.querenbox input{
+  width: 80px;
+  height: 40px;
+  margin-top: 30px;  
+  margin-left: 45px;
+}
